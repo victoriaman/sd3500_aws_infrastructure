@@ -146,7 +146,7 @@ In this section we will show how to connect to eks cluster and install `nginx` h
 aws eks update-kubeconfig --region "<aws region where we created the eks cluster>" --name "<eks cluster name>"
 
 # as per the sample.tfvars parameters
-aws eks update-kubeconfig --region "us-east-2" --name "platformwale"
+aws eks update-kubeconfig --region "ap-southeast-1" --name "platformwale"
 ```
 
 2. You can check if you are pointing to the right kubernetes cluster by running following kubectl command
